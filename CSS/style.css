@@ -551,6 +551,10 @@ textarea{
   border: 0.3px solid rgba(0, 0, 0, 0.194);
 
 }
+.contact-main>iframe{
+  border: none;
+  outline: none;
+}
 .contact-btn{
   width: 43%;
   align-self: center;
@@ -566,4 +570,116 @@ textarea{
 &:hover{
   background-color: #019b8e;
 }
+}
+
+/* footer section */
+footer{
+  background-color: rgba(4, 3, 3, 0.742);
+  width: 100%;
+  margin-top: 50px;
+padding: 40px 0px 0px 0px;
+
+}
+.footer-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.footer-item{
+  width: 80%;
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+  margin-bottom: 30px;
+  gap: 30px;
+}
+.about-footer{
+  width: 50%;
+}
+.about-footer>h1{
+  font-size: 25px;
+}
+.about-footer>p{
+  margin-top: 20px;
+}
+.useful-link>h1{
+   color: #fff;
+   font-size: 25px;
+}
+.Useful-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 20px;
+}
+.Useful-item a{
+  text-decoration: none;
+  color: #fff;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(132, 132, 131);
+  &:hover{
+    color: rgb(255, 230, 0);
+  }
+}
+.useful-link{
+  width: 20%;
+}
+.contact-us>h1{
+  font-size: 25px;
+}
+.contact-item{
+  margin-top: 20px;
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+.footer-email span a{
+text-decoration: none;
+color: #cfcbcb;
+}
+.footer-email{
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(132, 131, 131);
+}
+.end-footer{
+  background-color: #000;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.cpy>h5{
+  color: #fff;
+  font-weight: 400;
+}
+.end-con{
+  padding: 20px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  
+  align-items: center;
+}
+.icon-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.icon-con a{
+  background-color: #00AB9F;
+  border-radius: 50%;
+  padding: 10px;
+  line-height: 10px;
+  transition: all 0.5s;
+  &:hover{
+    background-color: orangered;
+  }
 }
