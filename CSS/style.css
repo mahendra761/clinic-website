@@ -53,7 +53,12 @@ nav{
   color: orangered;
 }
 }
+.menu-icon {
+  width: 28px;
+  margin-left: 20px;
+  display: none;
 
+}
 
 .nav-link::after{
   content: '';
