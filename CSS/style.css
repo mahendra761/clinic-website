@@ -643,6 +643,7 @@ padding: 40px 0px 0px 0px;
 .footer-email span a{
 text-decoration: none;
 color: #cfcbcb;
+margin-left: 10px;
 }
 .footer-email{
   padding-bottom: 20px;
