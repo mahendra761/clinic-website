@@ -35,7 +35,7 @@ MenuItem.style.maxHeight= "0px";
 function menutoggle(){
     if(MenuItem.style.maxHeight == "0px")
     {
-        MenuItem.style.maxHeight = "300px";
+        MenuItem.style.maxHeight = "310px";
     }
     else
     {
